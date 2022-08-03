@@ -1,0 +1,37 @@
+algorithme algo3
+{
+var 
+v1:array_OF integer[]
+v2:array_OF integer[]
+ps:=integer:0
+begin
+if(v1.lenght<>v2.lenght)
+{
+write("la produit scalaire ps)
+else
+dot_product(v1,v2)
+ps=dot_product(v1,v2)
+}
+END.
+PROCEDURE dot_product(v1:array_OF integer[],v2:array_OF integer[])
+var
+ps:=integer:0
+i:=0
+begin
+while(i<v1.lenght)
+{
+ps=ps+(v1[i]*v2[i]
+}
+END.
+**********************************************
+Fonction dot_product( (v1:array_OF integer[],v2:array_OF integer[]) return integer
+var
+sum:=0
+i:=0
+begin
+while(i<v1.lenght)
+{
+sum=sum+(v1[i]*v2[i])
+ }
+return sum
+END.
