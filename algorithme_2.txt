@@ -1,0 +1,15 @@
+var
+found:=boolean
+i,j,s1,s2:=0
+tab1=:ARRAY_OF integer[]
+tab2:=Array_OF integer[]
+for(i=0;i<tab2.lenght;i++)
+{found=false
+for(j=0;j<tab2.lenght;j++)
+{if(tab[i]==tab[j])
+{found=true}}
+if(found=false)
+{
+si=tab1[i]+s1
+}}
+END.
