@@ -1,0 +1,17 @@
+ALGORITHME trie_insert
+var
+i,j,temp:integer
+arr:Array_OF integer:[]
+BEGIN
+for(i=1;i<arr.lenght;i++)
+{
+temp:=arr[i]
+j=i-1
+while(j>=0 and arr[j]>temp)
+{
+arr[j+1]=arr[j]
+j=j-1
+}
+arr[j+1]=temp
+}
+END.
